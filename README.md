@@ -15,7 +15,8 @@ We compare path planning algorithms:
 - **A***
 - **Replanner** (for dynamic cases)
 
-Project Structure
+##Project Structure
+'''
 AIML PROJECT/
 │
 ├── maps/                           # Input grid maps (small.txt, medium.txt, large.txt, dynamic.txt)
@@ -50,7 +51,7 @@ AIML PROJECT/
 ├── requirements.txt                 # Python dependencies
 ├── .gitignore                       # Git ignore file
 └── README.md                        # This file
-
+'''
 
 ---
 
@@ -61,11 +62,11 @@ AIML PROJECT/
 - Install dependencies:
   pip install -r requirements.txt
 
-Run Experiments(CLI)
+##Run Experiments(CLI)
 After installing dependencies and setting up the repo, you can run experiments using:
 python -m src.experiments.run_experiment --map <map_file> --algo a<algorithm>[options]
 
-Arguments
+#Arguments
 --map (required) → Path to the map file (e.g., maps/small.txt)
 --algo (required) → Algorithm to use: bfs, ucs, astar, or replanner(hill climb)
 --out → Output directory (default: outputs/)
@@ -75,7 +76,7 @@ Arguments
 --dynamic → Enable moving obstacles (default: off)
 --schedule → JSON file describing obstacle movement (only used with --dynamic)
 
-Examples
+#Examples
 1. Static environment (simple map + A search):*
 python -m src.experiments.run_experiment --map maps/small.txt --algo astar
 2. Uniform Cost Search with fuel limit:
@@ -86,19 +87,19 @@ python -m src.experiments.run_experiment --map maps/dynamic.txt --algo replanner
 
 All results,logs, and outputs will be saved in the outputs/folder by default.
 
-Results & Outputs
+##Results & Outputs
  - After running an experiment, all results, logs, and plots are saved in the outputs/ directory.
  -You may find:
      -Path visualizations (matplotlib plots of explored paths).
      -Summary stats (travel cost, time taken, success rate).
      -Dynamic maps (showing moving obstacles over time).
  - example:
-       outputs/
+      ''' outputs/
          ├── run_2025-09-22_10-00-01/
          │   ├── path.png
          │   ├── stats.csv
          │   └── log.txt
-
+''''
 
 ## Contributing
   This is a student project, so contributions are welcome!
