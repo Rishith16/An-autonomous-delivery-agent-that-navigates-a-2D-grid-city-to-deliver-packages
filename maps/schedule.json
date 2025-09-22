@@ -1,0 +1,5 @@
+[
+    {"id": 1, "trajectory": [[2,2], [2,3], [2,4], [2,5], [2,6]], "start": 2, "loop": true},
+    {"id": 2, "trajectory": [[5,7], [5,6], [5,5], [5,4]], "start": 4, "loop": true}
+  ]
+  
