@@ -13,7 +13,7 @@ We compare path planning algorithms:
 - **BFS**
 - **UCS**
 - **A***
-- **Replanner** (for dynamic cases)
+- **Replanner** (for dynamic cases and it has local search algo too)
 
 ##Project Structure
 ```
@@ -26,12 +26,12 @@ AIML PROJECT/
 ├── src/                            # Core source code
 │ ├── data/                         # Environment data handling
 │ │ ├── grid.py
-│ │ └── dynamic_obstacles.py
+│ │ └── dynamic_obstacles.py        # for adding dynamic obstacles in the maps
 │ │
 │ ├── experiments/                  # Scripts for experiments & result plotting
 │ │ ├── dynamics.py
 │ │ ├── plot_results.py
-│ │ └── run_experiment.py            # act as main function too
+│ │ └── run_experiment.py            # act as main function too and it has cli
 │ │
 │ ├── models/                        # Path planning algorithms
 │ │ ├── bfs.py
@@ -90,10 +90,10 @@ AIML PROJECT/
 
 ##Results & Outputs
  - After running an experiment, all results, logs, and plots are saved in the outputs/ directory.
- -  -You may find:
+ -   You may find:
  -   Path visualizations (matplotlib plots of explored paths).
- -   -Summary stats (travel cost, time taken, success rate).
- -    -Dynamic maps (showing moving obstacles over time).
+ -   Summary stats (travel cost, time taken, success rate).
+ -   Dynamic maps (showing moving obstacles over time).
  - Example:
       ``` outputs/
          ├── run_2025-09-22_10-00-01/
