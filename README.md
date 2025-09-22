@@ -15,7 +15,7 @@ We compare path planning algorithms:
 - **A***
 - **Replanner** (for dynamic cases)
 
-## 📂 Project Structure
+Project Structure
 AIML PROJECT/
 │
 ├── maps/                           # Input grid maps (small.txt, medium.txt, large.txt, dynamic.txt)
@@ -61,7 +61,7 @@ AIML PROJECT/
 - Install dependencies:
   pip install -r requirements.txt
 
-## Run Experiments(CLI)
+Run Experiments(CLI)
 After installing dependencies and setting up the repo, you can run experiments using:
 python -m src.experiments.run_experiment --map <map_file> --algo a<algorithm>[options]
 
@@ -86,7 +86,7 @@ python -m src.experiments.run_experiment --map maps/dynamic.txt --algo replanner
 
 All results,logs, and outputs will be saved in the outputs/folder by default.
 
-## Results & Outputs
+Results & Outputs
  - After running an experiment, all results, logs, and plots are saved in the outputs/ directory.
  -You may find:
      -Path visualizations (matplotlib plots of explored paths).
