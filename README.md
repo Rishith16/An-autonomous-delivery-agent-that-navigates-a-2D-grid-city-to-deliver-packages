@@ -78,23 +78,23 @@ AIML PROJECT/
 --schedule → JSON file describing obstacle movement (only used with --dynamic)
 ```
 -Examples
-```
+
 1. Static environment (simple map + A search):*
-python -m src.experiments.run_experiment --map maps/small.txt --algo astar
+```python -m src.experiments.run_experiment --map maps/small.txt --algo astar```
 2. Uniform Cost Search with fuel limit:
-python -m src.experiments.run_experiment --map maps/medium.txt --algo ucs --fuel 50
+```python -m src.experiments.run_experiment --map maps/medium.txt --algo ucs --fuel 50```
 3. Dynamic environment with schedule:
-python -m src.experiments.run_experiment --map maps/dynamic.txt --algo replanner --dynamic --schedule schedules/move.json
-```
+```python -m src.experiments.run_experiment --map maps/dynamic.txt --algo replanner --dynamic --schedule schedules/move.json```
+
 -All results,logs, and outputs will be saved in the outputs/folder by default.
 
 ##Results & Outputs
  - After running an experiment, all results, logs, and plots are saved in the outputs/ directory.
- -You may find:
-     -Path visualizations (matplotlib plots of explored paths).
-     -Summary stats (travel cost, time taken, success rate).
-     -Dynamic maps (showing moving obstacles over time).
- - example:
+ -  -You may find:
+ -   Path visualizations (matplotlib plots of explored paths).
+ -   -Summary stats (travel cost, time taken, success rate).
+ -    -Dynamic maps (showing moving obstacles over time).
+ - Example:
       ``` outputs/
          ├── run_2025-09-22_10-00-01/
          │   ├── path.png
@@ -103,8 +103,10 @@ python -m src.experiments.run_experiment --map maps/dynamic.txt --algo replanner
       ```
  
 
-## Contributing
-  -This is a student project, so contributions are welcome!
-     -Fork the repo
-     -Create a new branch
-     -Submit a pull request with clear descriptions
+## Contributin
+ - This is a student project, so contributions are welcome!
+ - Fork the repo
+ - Create a new branch
+ - Submit a pull request with clear descriptions
+
+
