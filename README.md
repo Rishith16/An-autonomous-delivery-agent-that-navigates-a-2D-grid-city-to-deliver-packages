@@ -133,3 +133,7 @@ AIML PROJECT/
      Fork the repo
      Create a new branch
      Submit a pull request with clear descriptions
+## Report and Demo
+- The project report (REPORT.pdf) covering environment modeling, agent design, heuristics, experimental results, analysis, and conclusion is available in the repository root.
+
+- The demo (DEMO:SCREENSHOTS.pdf) includes screenshots and an illustrative walkthrough of the agent acting in a dynamic map.
