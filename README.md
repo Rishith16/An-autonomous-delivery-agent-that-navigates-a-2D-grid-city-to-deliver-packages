@@ -20,24 +20,26 @@ We compare path planning algorithms:
 Map files are plain text. The first line contains six integers:
 
 rows cols start_x start_y goal_x goal_y
-Subsequent lines are a grid where:
+- Subsequent lines are a grid where:
 
 S and G mark start/goal cells and count as cost 1
-# marks blocked cells (impassable)
+- Marks blocked cells (impassable)
 
 Example:
 
-```5 5 0 0 4 4
-S....
+5 5 0 0 4 4
+```S....
 .....
 ..#..
 ....#
-....G```
+....G
+```
 A demo dynamic obstacle schedule is encoded in maps/schedule:
 
 ```[
     {"id": 1, "trajectory": [[2,2], [2,3], [2,4], [2,5], [2,6]], "start": 2, "loop": true},
-]```
+]
+```
 ##Project Structure
 ```
 AIML PROJECT/
