@@ -13,7 +13,7 @@ We compare path planning algorithms:
 - **BFS**
 - **UCS**
 - **A***
-- **Replanner** (for dynamic cases and it has local search algo too)
+- **Replanner** (for dynamic cases)
 
 ##Project Structure
 ```
@@ -103,10 +103,8 @@ AIML PROJECT/
       ```
  
 
-## Contributin
- - This is a student project, so contributions are welcome!
- - Fork the repo
- - Create a new branch
- - Submit a pull request with clear descriptions
-
-
+## Contributing
+  This is a student project, so contributions are welcome!
+     Fork the repo
+     Create a new branch
+     Submit a pull request with clear descriptions
