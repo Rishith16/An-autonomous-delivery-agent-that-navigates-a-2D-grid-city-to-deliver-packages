@@ -1,0 +1,27 @@
+\begin{table}[H]
+\centering
+\caption{Summary of Experimental Results across Maps and Algorithms}
+\label{tab:results}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Map} & \textbf{Algorithm} & \textbf{Cost} & \textbf{Nodes Expanded} & \textbf{Time (s)} \\
+\hline
+dynamic.txt & Replanner & 58.0 & 10.0 & 5.25e-05 \\
+\hline
+large.txt & A* & 177.0 & 29.0 & 8.93e-05 \\
+large.txt & BFS & 264.0 & 29.0 & 9.38e-05 \\
+large.txt & Replanner & 177.0 & 29.0 & 8.10e-05 \\
+large.txt & UCS & 266.0 & 29.0 & 9.05e-05 \\
+\hline
+medium.txt & A* & 80.0 & 18.0 & 1.04e-04 \\
+medium.txt & BFS & 81.0 & 18.0 & 9.56e-05 \\
+medium.txt & Replanner & 80.0 & 18.0 & 1.03e-04 \\
+medium.txt & UCS & 81.0 & 18.0 & 1.16e-04 \\
+\hline
+small.txt & A* & 6.0 & 5.0 & 2.23e-05 \\
+small.txt & BFS & 14.0 & 5.0 & 2.30e-05 \\
+small.txt & Replanner & 6.0 & 5.0 & 2.45e-05 \\
+small.txt & UCS & 15.0 & 5.0 & 2.70e-05 \\
+\hline
+\end{tabular}
+\end{table}

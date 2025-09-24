@@ -1,0 +1,14 @@
+map,algo,cost_mean,cost_std,nodes_mean,nodes_std,time_mean,time_std
+dynamic.txt,replanner,10.0,,58.0,,5.324999801814556e-05,
+large.txt,astar,29.0,,177.0,,0.000289833988063,
+large.txt,bfs,29.0,,264.0,,0.0003322499978821,
+large.txt,replanner,29.0,,177.0,,0.0002541250141803,
+large.txt,ucs,29.0,,266.0,,0.0003838750126305,
+medium.txt,astar,18.0,,80.0,,0.000130041007651,
+medium.txt,bfs,18.0,,81.0,,9.56250005401671e-05,
+medium.txt,replanner,18.0,,80.0,,0.0001225839951075,
+medium.txt,ucs,18.0,,81.0,,0.0001152920012827,
+small.txt,astar,5.0,0.0,9.0,0.0,2.2291482309810817e-05,1.2961184892893638e-06
+small.txt,bfs,5.0,,14.0,,2.300000051036477e-05,
+small.txt,replanner,5.0,,6.0,,2.4500011932104823e-05,
+small.txt,ucs,5.0,,15.0,,2.70830059889704e-05,
